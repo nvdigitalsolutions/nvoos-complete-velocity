@@ -1,0 +1,27 @@
+{
+  "name": "nvoos-complete-console",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "license": "UNLICENSED",
+  "description": "NV oOS Complete Console — Cloudways Velocity app serving the full Pro SPA (spa-v2) admin surface for NV oOS Complete customers. Prebuilt bundle + zero-dependency cookie proxy; no build step on Velocity.",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node -e \"process.exit(0)\"",
+    "build": "node -e \"process.exit(0)\"",
+    "preview": "node -e \"process.exit(0)\"",
+    "typecheck": "node -e \"process.exit(0)\"",
+    "lint:a11y": "node -e \"process.exit(0)\"",
+    "test": "node -e \"process.exit(0)\"",
+    "test:watch": "node -e \"process.exit(0)\"",
+    "serve": "node scripts/serve.mjs",
+    "start": "node scripts/serve.mjs",
+    "sync:dist": "node -e \"process.exit(0)\""
+  },
+  "overrides": {
+    "@vitest/mocker": ">=4.1.12 <5"
+  },
+  "engines": {
+    "node": ">=20.19.0"
+  }
+}
